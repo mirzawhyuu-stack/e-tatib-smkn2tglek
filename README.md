@@ -86,6 +86,7 @@ Buka: `https://e-tatib-smkn2tglek.vercel.app/`
 | Role | Username | Password |
 |---|---|---|
 | Admin | `admin` | `admin123` |
+
 **admin harus mengisi data dulu, admin juga bisa menambahkan login username dan password dan bisa di atur role nya sebagai apa (guru bk/siswa/orang tua/wali kelas)**
 
 ### Alur pemakaian singkat
