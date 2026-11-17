@@ -79,11 +79,9 @@ Buka: `https://e-tatib-smkn2tglek.vercel.app/`
 
 ### Opsi B — Menjalankan di komputer sendiri
 1. Unduh atau *clone* repositori ini.
-   ```bash
    git clone [`https://github.com/mirzawhyuu-stack/e-tatib-smkn2tglek.git`]
-   cd SMKN2_LATIKA
-2. Buka file `index.html` di browser modern (Chrome, Edge, Firefox).
-3. Login memakai username dan password di bawah
+   cd SMKN2TGLK_LATIKA
+2. Login memakai username dan password di bawah
 
 | Role | Username | Password |
 |---|---|---|
