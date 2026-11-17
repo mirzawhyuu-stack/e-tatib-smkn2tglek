@@ -111,7 +111,7 @@ Unduh template dari **Kelola Siswa → Unduh Format Excel**. Kolom: `Username`, 
 | Kelas | `XI RPL B` |
 | Jurusan | `Rekayasa Perangkat Lunak` |
 | Asal sekolah | `Smkn 2 Trenggalek`|
-| Nama lengkap | `Andika Satria Juliano` |
+| Nama lengkap | `Andhika Satria Juliano` |
 | Kelas | `X RPL B` |
 | Jurusan | `Rekayasa Perangkat Lunak` |
 | Asal sekolah | `Smkn 2 Trenggalek`|
