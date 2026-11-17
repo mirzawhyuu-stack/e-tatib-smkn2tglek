@@ -18,7 +18,7 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 *Interaksi AI dalam menentukan konsep produk.*
 
 | No | Prompt kepada AI | Ringkasan Respons AI | Validasi & Modifikasi Mandiri |
-|---|---|---|---|---|
+
 | 1.1 | `"Saya ingin membuat aplikasi untuk mencatat pelanggaran siswa di sekolah. Apa saja fitur yang dibutuhkan?"]` | AI mengusulkan fitur pencatatan pelanggaran, daftar siswa, dan laporan. | `fitur mana yang Anda pilih/buang sesuai kebutuhan sekolah, dan alasannya]` |
 | 1.2 | `"Siapa saja pengguna sistem ini dan apa hak aksesnya?"]` | AI menyusun 6 peran: Admin, Tim Tatib, Guru BK, Wali Kelas, Siswa, Orang Tua, beserta menu tiap peran. | `peran yang Anda sesuaikan setelah bertanya ke guru/tim tatib]` |
 | 1.3 | `"Bagaimana alur jika siswa melanggar berkali-kali?"]` | AI merancang aturan **5 pelanggaran per semester → antrian pemanggilan Guru BK**, dengan status Menunggu BK → Dipanggil → Selesai. | `memastikan batas 5x sesuai tata tertib sekolah, bukan angka asal dari AI]` |
