@@ -30,7 +30,7 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 *Interaksi AI dalam merancang struktur dasar HTML/CSS dan logika fungsi.*
 
 | No | Prompt kepada AI | Ringkasan Respons AI | Validasi & Modifikasi Mandiri |
-|---|---|---|---|---|
+
 | 2.1 | `"Buatkan struktur HTML halaman login dan dashboard dengan sidebar."]` | AI membuat `index.html` berisi halaman login dan beberapa `<section class="page">` yang ditampilkan/disembunyikan sesuai menu. | `mengubah teks, urutan menu, dan judul halaman sesuai kebutuhan]` |
 | 2.3 | `"Buatkan fungsi simpan dan baca data memakai localStorage."]` | AI membuat `dbRead`/`dbWrite` dengan awalan `simtatib_` dan data awal (seed) berupa akun demo, 4 jurusan, dan 7 jenis pelanggaran. | `mengganti daftar pelanggaran sesuai tata tertib SMKN 2 Trenggalek]` |
 | 2.4 | `"Buat login dengan menu berbeda tiap peran."]` | AI membuat `doLogin()`, objek `MENU` per peran, dan `buildSidebar()`. | `mencoba login dengan tiap akun demo dan memeriksa menu yang tampil]` |
