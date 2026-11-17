@@ -1,6 +1,6 @@
 # AI LOGBOOK — E-TATIB
 
-Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-TATIB — Sistem Informasi Pelanggaran Tata Tertib Siswa**.
+Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-TATIB — Pelanggaran Tata Tertib Siswa**.
 
 | Item | Keterangan |
 |---|---|
@@ -19,8 +19,8 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 
 | No | Prompt kepada AI | Ringkasan Respons AI | Validasi & Modifikasi Mandiri |
 
-| 1.1 | `"Saya ingin membuat aplikasi untuk mencatat pelanggaran siswa di sekolah. Apa saja fitur yang dibutuhkan?"]` | AI mengusulkan fitur pencatatan pelanggaran, daftar siswa, dan laporan. | `fitur mana yang Anda pilih/buang sesuai kebutuhan sekolah, dan alasannya]` |
-| 1.2 | `"Siapa saja pengguna sistem ini dan apa hak aksesnya?"]` | AI menyusun 6 peran: Admin, Tim Tatib, Guru BK, Wali Kelas, Siswa, Orang Tua, beserta menu tiap peran. | `peran yang Anda sesuaikan setelah bertanya ke guru/tim tatib]` |
+| 1.1 | `"Saya ingin membuat aplikasi untuk mencatat pelanggaran siswa di sekolah. Apa saja fitur yang dibutuhkan?"]` | AI mengusulkan fitur pencatatan pelanggaran, daftar siswa, dan laporan. | `Kami sepakat memilih input pelanggaran dan daftar siswa. Kami juga mengusulkan menambahkan data pelanggaran , bentuk pelanggaran , kelola jurusan dan kelas ]` |
+| 1.2 | `"Siapa saja pengguna sistem ini dan apa hak aksesnya?"]` | AI menyusun 6 peran: Admin, Tim Tatib, Guru BK, Wali Kelas, Siswa. | `kami sepakat memilih rekomendasi ai dan kamu juga menambahkan orang tua siswa agar bisa memantau pelanggaran anak nya]` |
 | 1.3 | `"Bagaimana alur jika siswa melanggar berkali-kali?"]` | AI merancang aturan **5 pelanggaran per semester → antrian pemanggilan Guru BK**, dengan status Menunggu BK → Dipanggil → Selesai. | `memastikan batas 5x sesuai tata tertib sekolah, bukan angka asal dari AI]` |
 | 1.4 | `"Data disimpan di mana jika tidak ada server?"]` | AI menyarankan `localStorage` sehingga aplikasi bisa berjalan tanpa backend. | `memahami konsekuensinya (data hanya di satu browser) dan menambahkan ekspor/impor JSON sebagai cadangan]` |
 
@@ -98,7 +98,3 @@ Menyaring notifikasi sesuai peran yang login. Siswa hanya melihat notifikasi unt
 
 **9. prosesImportSiswa()**
 Membaca tiap baris Excel. Setiap baris diperiksa kolom wajibnya, username dan NIS ganda, serta kecocokan kelas dan jurusan. Baris yang valid disimpan, baris yang gagal dicatat beserta nomor barisnya.
-
-
-
-
