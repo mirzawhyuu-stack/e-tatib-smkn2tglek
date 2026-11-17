@@ -7,7 +7,7 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 | Pengembang | `Mirza Wahyu Sihanturi` |
 | Kelas / Jurusan | `XI RPL B` |
 | Sekolah | `SMKN 2 Trenggalek` |
-| Pengembang | `Andika Satria Juliano` |
+| Pengembang | `Andhika Satria Juliano` |
 | Kelas / Jurusan | `X RPL B` |
 | Sekolah | `SMKN 2 Trenggalek` |
 | Alat AI | `ChatGPT` |
