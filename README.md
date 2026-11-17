@@ -43,7 +43,7 @@ E-TATIB adalah aplikasi web yang mencatat pelanggaran siswa dan otomatis memasuk
 | Kategori | Keterangan |
 |---|---|
 | Bahasa pemrograman | HTML5, CSS3, JavaScript (ES6+, tanpa framework) |
-| Modul/pustaka | [SheetJS (xlsx) 0.18.5](https://sheetjs.com/) via CDN untuk import/unduh template Excel |
+| Modul/pustaka | Via CDN untuk import/unduh template Excel |
 | Penyimpanan data | Web Storage API (`localStorage`) |
 | API browser | Notification API |
 | Integrasi eksternal | WhatsApp Click-to-Chat |
