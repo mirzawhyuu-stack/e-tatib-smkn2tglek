@@ -44,7 +44,7 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 ## Tahap 3: Pemecahan Masalah & Penanganan Galat (*Debugging*)
 *Interaksi AI saat memperbaiki kesalahan program.*
 
-| No | Tanggal | Masalah / Pesan Error | Prompt kepada AI | Respons AI (ringkas) | Validasi & Modifikasi Mandiri |
+| No | Masalah / Pesan Error | Prompt kepada AI | Respons AI (ringkas) | Validasi & Modifikasi Mandiri |
 |---|---|---|---|---|---|
 | 3.1 | Dropdown kelas pada form siswa tidak sesuai jurusan. Saat jurusan RPL dipilih, kelas jurusan lain ikut muncul sehingga data siswa bisa salah. | "Pilihan kelas di form siswa harus menyesuaikan jurusan yang dipilih." | AI membuat kelas difilter berdasarkan jurusan lewat `isiDropdownKelasSiswa()`. Dropdown kelas nonaktif sebelum jurusan dipilih, dan `submitSiswa()` menolak data jika kelas tidak sesuai jurusan. | Menguji dengan memilih jurusan RPL dan memastikan hanya kelas RPL yang muncul, lalu mengosongkan jurusan dan memastikan dropdown kelas nonaktif. Mencoba menyimpan dengan kelas yang tidak cocok dan memastikan muncul pesan error. |
 | 3.2 | Status pemanggilan sulit dipahami karena memakai dropdown, sehingga mudah salah pilih. | "Status pemanggilan jangan pakai dropdown. Buat otomatis: kalau BK klik WA jadi Dipanggil, kalau klik Selesai jadi Selesai." | AI menghapus dropdown dan menggantinya dengan tombol 💬 WA Ortu (status jadi *Dipanggil* lewat `kirimWa()`) dan ✅ Selesai (status jadi *Selesai* lewat `tandaiSelesai()`). | Login sebagai `bk1`, mengklik WA Ortu lalu Selesai, dan memastikan status berubah berurutan: Menunggu BK → Dipanggil → Selesai. |
