@@ -32,12 +32,12 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 | No | Prompt kepada AI | Ringkasan Respons AI | Validasi & Modifikasi Mandiri |
 
 | 2.1 | `"Buatkan struktur HTML halaman login dan dashboard dengan sidebar."]` | AI membuat `index.html` berisi halaman login dan beberapa `<section class="page">` yang ditampilkan/disembunyikan sesuai menu. | `mengubah teks, urutan menu, dan judul halaman sesuai kebutuhan]` |
-| 2.3 | `"Buatkan fungsi simpan dan baca data memakai localStorage."]` | AI membuat `dbRead`/`dbWrite` dengan awalan `simtatib_` dan data awal (seed) berupa akun demo, 4 jurusan, dan 7 jenis pelanggaran. | `mengganti daftar pelanggaran sesuai tata tertib SMKN 2 Trenggalek]` |
-| 2.4 | `"Buat login dengan menu berbeda tiap peran."]` | AI membuat `doLogin()`, objek `MENU` per peran, dan `buildSidebar()`. | `mencoba login dengan tiap akun demo dan memeriksa menu yang tampil]` |
-| 2.5 | `"Buat fitur CRUD untuk jurusan, kelas, dan siswa."]` | AI membuat form tambah/edit/hapus dengan validasi duplikat dan konfirmasi hapus. | `menambah/mengubah validasi atau label form]` |
-| 2.6 | `"Buat aturan 5x pelanggaran per semester."]` | AI membuat `semesterDariTanggal()` dan `cekBatasPanggilan()` yang menambahkan siswa ke antrian BK. | ` menguji dengan menginput 5 pelanggaran satu siswa]` |
-| 2.7 | `"Buat fitur import siswa dari Excel."]` | AI membuat `unduhTemplateSiswa()` dan `prosesImportSiswa()` memakai SheetJS dengan validasi tiap baris. | `mencoba file Excel yang sengaja diberi data salah untuk melihat laporan error]` |
-| 2.8 | `"Pisahkan notifikasi untuk orang tua, siswa, BK, dan wali kelas."]` | AI menambahkan penanda `untukOrtu`, `untukSiswa`, `untukBk`, `untukWk` dan fungsi `notifUntukSaya()`. | `login tiap peran untuk memastikan notifikasi hanya muncul ke penerima yang tepat]` |
+| 2.2 | `"Buatkan fungsi simpan dan baca data memakai localStorage."]` | AI membuat `dbRead`/`dbWrite` dengan awalan `simtatib_` dan data awal (seed) berupa akun demo, 4 jurusan, dan 7 jenis pelanggaran. | `mengganti daftar pelanggaran sesuai tata tertib SMKN 2 Trenggalek]` |
+| 2.3 | `"Buat login dengan menu berbeda tiap peran."]` | AI membuat `doLogin()`, objek `MENU` per peran, dan `buildSidebar()`. | `mencoba login dengan tiap akun demo dan memeriksa menu yang tampil]` |
+| 2.4 | `"Buat fitur CRUD untuk jurusan, kelas, dan siswa."]` | AI membuat form tambah/edit/hapus dengan validasi duplikat dan konfirmasi hapus. | `menambah/mengubah validasi atau label form]` |
+| 2.5 | `"Buat aturan 5x pelanggaran per semester."]` | AI membuat `semesterDariTanggal()` dan `cekBatasPanggilan()` yang menambahkan siswa ke antrian BK. | ` menguji dengan menginput 5 pelanggaran satu siswa]` |
+| 2.6 | `"Buat fitur import siswa dari Excel."]` | AI membuat `unduhTemplateSiswa()` dan `prosesImportSiswa()` memakai SheetJS dengan validasi tiap baris. | `mencoba file Excel yang sengaja diberi data salah untuk melihat laporan error]` |
+| 2.7 | `"Pisahkan notifikasi untuk orang tua, siswa, BK, dan wali kelas."]` | AI menambahkan penanda `untukOrtu`, `untukSiswa`, `untukBk`, `untukWk` dan fungsi `notifUntukSaya()`. | `login tiap peran untuk memastikan notifikasi hanya muncul ke penerima yang tepat]` |
 
 ---
 
