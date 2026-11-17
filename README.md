@@ -64,7 +64,7 @@ Daftar lengkap interaksi ada di [`AI_LOGBOOK.md`](AI_LOGBOOK.md).
 
 ### Penyesuaian/perbaikan mandiri terhadap saran AI
 
-**| 1 |** Menyesuaikan daftar bentuk pelanggaran dengan tata tertib SMKN 2.
+**| 1 |** Menyesuaikan daftar bentuk pelanggaran dengan tata tertib SMKN 2 TRENGGALEK.
 **| 2 |** Menyesuaikan jurusan dan kelas dengan data sekolah.
 **| 3 |** Menguji alur 5x pelanggaran dan memperbaiki kesalahan yang ditemukan.
 **| 4 |** Mengganti logo dan tampilan sesuai identitas sekolah.
