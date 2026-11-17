@@ -17,7 +17,7 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 ## Tahap 1: Eksplorasi Ide & Perancangan Solusi
 *Interaksi AI dalam menentukan konsep produk.*
 
-| No | Tanggal | Prompt kepada AI | Ringkasan Respons AI | Validasi & Modifikasi Mandiri |
+| No | Prompt kepada AI | Ringkasan Respons AI | Validasi & Modifikasi Mandiri |
 |---|---|---|---|---|
 | 1.1 | `"Saya ingin membuat aplikasi untuk mencatat pelanggaran siswa di sekolah. Apa saja fitur yang dibutuhkan?"]` | AI mengusulkan fitur pencatatan pelanggaran, daftar siswa, dan laporan. | `fitur mana yang Anda pilih/buang sesuai kebutuhan sekolah, dan alasannya]` |
 | 1.2 | `"Siapa saja pengguna sistem ini dan apa hak aksesnya?"]` | AI menyusun 6 peran: Admin, Tim Tatib, Guru BK, Wali Kelas, Siswa, Orang Tua, beserta menu tiap peran. | `peran yang Anda sesuaikan setelah bertanya ke guru/tim tatib]` |
@@ -29,7 +29,7 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 ## Tahap 2: Penyusunan Kerangka Kode (*Scaffolding*)
 *Interaksi AI dalam merancang struktur dasar HTML/CSS dan logika fungsi.*
 
-| No | Tanggal | Prompt kepada AI | Ringkasan Respons AI | Validasi & Modifikasi Mandiri |
+| No | Prompt kepada AI | Ringkasan Respons AI | Validasi & Modifikasi Mandiri |
 |---|---|---|---|---|
 | 2.1 | `"Buatkan struktur HTML halaman login dan dashboard dengan sidebar."]` | AI membuat `index.html` berisi halaman login dan beberapa `<section class="page">` yang ditampilkan/disembunyikan sesuai menu. | `mengubah teks, urutan menu, dan judul halaman sesuai kebutuhan]` |
 | 2.3 | `"Buatkan fungsi simpan dan baca data memakai localStorage."]` | AI membuat `dbRead`/`dbWrite` dengan awalan `simtatib_` dan data awal (seed) berupa akun demo, 4 jurusan, dan 7 jenis pelanggaran. | `mengganti daftar pelanggaran sesuai tata tertib SMKN 2 Trenggalek]` |
