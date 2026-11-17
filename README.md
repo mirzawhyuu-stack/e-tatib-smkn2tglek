@@ -70,6 +70,7 @@ Daftar lengkap interaksi ada di [`AI_LOGBOOK.md`](AI_LOGBOOK.md).
 **| 4 |** Mengganti logo dan tampilan sesuai identitas sekolah.
 **| 5 |** Mengganti text yang akan dikirim ke nomor orang tua
 **| 6 |** Mengganti poin pelanggaran dan menambahkan menu baru yang bisa di input oleh admin dan tatib
+**| 7 |** Mengubah desain UX UI
 
 
 ## 4. Panduan Penggunaan
