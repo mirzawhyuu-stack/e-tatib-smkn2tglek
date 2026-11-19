@@ -70,7 +70,7 @@ Dokumentasi interaksi dengan kecerdasan artifisial (AI) dalam pengembangan **E-T
 **Rencana pengembangan:** `Backend dan database, hash password, laporan PDF/Excel, dan poin pelanggaran.`
 
 
-### Penjelasan kode dengan kata sendiri
+### Penjelasan kode
 
 **1. dbRead() dan dbWrite()**
 dbRead mengambil data dari localStorage (kunci berawalan simtatib_) dan mengubah teks JSON menjadi array. Jika datanya kosong atau rusak, hasilnya array kosong sehingga aplikasi tidak error. dbWrite kebalikannya: mengubah array menjadi teks JSON lalu menyimpannya.
